@@ -1,252 +1,286 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="product.css">
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <script src="https://kit.fontawesome.com/0d0b058730.js" crossorigin="anonymous"></script>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="product.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <script
+      src="https://kit.fontawesome.com/0d0b058730.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body>
-    <div class="head">
-        <div class="pages">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="head">
+          <div class="pages">
             <a href="reg-phar.html">Registered Pharmacy</a>
             <a href="fs-del.html">Fast Delivery</a>
             <a href="heal-adv.html">Health Advice</a>
             <a href="eve-rew.html">Shop</a>
-        </div>
-        <div class="logo">
+          </div>
+          <div class="logo">
             <a href="index.html">HealthCare</a>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Search for Perscriptions, Products and more..."> 
-        </div>
-        <div class="pf">
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Search for Perscriptions, Products and more..."
+            />
+          </div>
+          <div class="pf">
             <button class="icon">
-                <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-bars"></i>
             </button>
             <button class="icon">
-                <i class="fa-regular fa-user" id="man"></i>
+              <i class="fa-regular fa-user" id="man"></i>
             </button>
+            <button class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>$0.00</p>
+            </button>
+          </div>
         </div>
+      </div>
+    </header>
 
-        <button class="cart">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p>$0.00</p>
-        </button>
-    </div>
-
-    <div class="product">
+    <div class="container">
+      <div class="product">
         <div class="prodpic">
-            <img src="images/1stprod.avif">
+          <img src="images/1stprod.avif" />
         </div>
         <div class="prod1">
-            <h2>Beforeyouspeak Coffee Collagen Coffee <br>
-                Mocha 30 x 6.5g</h2>
-            <h3>
-                <div>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                </div>
-                <p>(0)</p>
-                <p>Write a review</p>
-            </h3>
-            <h4>62.45$</h4>
-            <h5><a>Sign in</a> or <a>Sign up</a> to link your card</h5>
-            <div class="input-box">
-                <input type="checkbox" id="agree"> <label for="agree">One time buy</label>
-            </div>
-            <div class="input-box">
-                <input type="checkbox" id="agree"> <label for="agree">AutoDelivery</label>
-            </div>
-            <div class="button">
-                <button>
-                    Add to cart
-                </button>
-            </div>
-            <div class="line">
-                <div class="horizontal-line"></div>
-            </div>
-            <div class="options">
-                <h6>Delivery Options</h6>
-                <p>Fastest Delivery</p>
-                <p id="2p">Order within 6hrs 49mins for delivery <br>
-                     by 9pm tonight or FREE delivery when you spend over $80</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="text1">
-        <h1>Product Overview</h1>
-    </div>
-    <div class="line2">
-        <div class="horizontal-line2"></div>
-    </div>
-
-    <div class="overview">
-        <p>
-            The Mocha Collagen Coffee by Beforeyouspeak Coffee is an all-in-one coffee elixir enriched with marine collagen, silica, camu camu, proline and biotin. <br>
-             A caffeine kick, bursting with decadent chocolate, that can be served as hot coffee or iced coffee.
-
-            Key benefits: <br>
-            <br>
-            Premium Arabica coffee <br>
-            Marine collagen <br>
-            Vitamin C <br>
-            Dairy and gluten-free <br>
-            No added sugar <br>
-            <br>
-            Collagen Coffee. No, for real, it exists! Beforeyouspeak understands the importance of taking care of your hair, skin & nails. The Original Collagen Blend is <br>
-            carefully formulated to help you look and feel your best, so you can perform at your best. 
-            <br>
-            Jaryd and Ash, the Australian makers of Beforeyouspeak Coffee, are on a mission to help you get more out of each day. They create premium instant <br>
-            coffee blends, the Beforeyouspeak Coffee Creamers, Beforeyouspeak Adrenal Decaf Coffee, Beforeyouspeak Collagen Coffee and Beforeyouspeak <br>
-            Performance Coffee. All products are formulated to help support health, well-being and performance, by infusing them with vitamins, minerals and <br>
-            superfoods.
-        </p>
-    </div>
-
-    <section class="products">
-        <button class="fstprod" onclick="window.open('product.html', '_blank')">
-            <img src="images/coffee1.avif" alt="1stproduct">
-            <h1>Beforeyouspeak Performance Coffee The OG 30 x 4.5g</h1>
-            <p class="price1">$55.96</p>
-            <p class="sale1">sale 20%-off</p>
-            <div class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Add to cart</p>
-            </div>
-        </button>
-        <button class="fstprod" onclick="window.open('product.html', '_blank')">
-            <img src="images/coffee2.avif" alt="1stproduct">
-            <h1>Beforeyouspeak Coffee Unsweetened Performance Coffee 30 x 4.5g</h1>
-            <p class="price1">$55.96</p>
-            <p class="sale1">sale 20%-off</p>
-            <div class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Add to cart</p>
-            </div>
-        </button>
-        <button class="fstprod" onclick="window.open('product.html', '_blank')">
-            <img src="images/coffee3.avif" alt="1stproduct">
-            <h1>Beforeyouspeak Coffee Performance Coffee Assorted 30 x 4.5g</h1>
-            <p class="price1">$55.96</p>
-            <p class="sale1">sale 20%-off</p>
-            <div class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Add to cart</p>
-            </div>
-        </button>
-        <button class="fstprod" onclick="window.open('product.html', '_blank')">
-            <img src="images/coffee4.avif" alt="1stproduct">
-            <h1>Beforeyouspeak Coffee Performance Coffee Caramel 30 x 4.5g</h1>
-            <p class="price1">$55.96</p>
-            <p class="sale1">sale 20%-off</p>
-            <div class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Add to cart</p>
-            </div>
-        </button>
-        <button class="fstprod" onclick="window.open('product.html', '_blank')">
-            <img src="images/coffee5.avif" alt="1stproduct">
-            <h1>Beforeyouspeak Collagen Complex - Caramel 200g</h1>
-            <p class="price1">$55.96</p>
-            <p class="sale1">sale 20%-off</p>
-            <div class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>Add to cart</p>
-            </div>
-        </button>
-    </section>
-
-    <footer>
-        <hr class="fthr">
-        <div class="ftr">
+          <h2>
+            Beforeyouspeak Coffee Collagen Coffee <br />
+            Mocha 30 x 6.5g
+          </h2>
+          <h3>
             <div>
-                <img src="images/TBClogo2.png" alt="TBClogo">
-                <p>Get social with us</p>
-                <div class="socials">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-tiktok"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
-                <p>Our partners</p>
-                <div class="partners1">
-                    <img src="images/melroselogo.png" class="melroselogo">
-                    <img src="images/musashilogo.png" class="musashilogo">
-                </div>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
             </div>
-    
-            <div class="centerpart">
-                <div class="centerpart1">
-                    <h5>Healthcare</h5>
-                    <h6>About us</h6>
-                    <h6>Advisory Board</h6>
-                    <h6>Living Healthy Report 2024</h6>
-                    <h6>Food Tracker</h6>
-                    <h6>Catalogue</h6>
-                    <h6>Everyday Rewards</h6>
-                    <h6>AutoDelivery</h6>
-                    <h6>Telehealth</h6>
-                </div>
-
-                <div class="centerpart1">
-                    <h5>Customer Care</h5>
-                    <h6>Contact us</h6>
-                    <h6>Track order</h6>
-                    <h6>Help Centre</h6>
-                    <h6>Shipping & returns</h6>
-                    <h6>Commercial/B2B</h6>
-                    <h6>Terms & Conditions</h6>
-                    <h6>Promotional T&Cs</h6>
-                    <h6>AutoDelivery T&Cs</h6>
-                    <h6>Product recalls</h6>
-                    <h6>Product commitment</h6>
-                    <h6>Pharmacy delivery</h6>
-                </div>
-
-                <div class="centerpart1">
-                    <h5>Important Information</h5>
-                    <h6>Collection notice</h6>
-                    <h6>Woolworths Group Cookies Statement</h6>
-                    <h6>Woolworths Group Privacy Centre</h6>
-                    <h6>Woolworths Group Privacy Policy</h6>
-                    <h6>Healthylife Pharmacy Privacy Policy</h6>
-                </div>
-            </div>
-
-            <div class="rightpart">
-                <div class="verticalline"></div>
-                <div>
-                    <div class="rightpart1">
-                        <h1>Healthcare</h1>
-                    </div>
-                    <h2>Healthylife Pharmacy</h2>
-                    <h2>Sole Proprietor: Warren Turner <br>
-                        B.Pharm M.P.S M.R.Pharm.S <br>
-                        ABN 40 330 425 745</h2>
-                    <h2>Pharmacist available</h2>
-                    <div class="text3">
-                        <div class="text4">
-                            <h3>Monday to Friday</h3>
-                            <h3>Saturday</h3>
-                            <h3>Sunday</h3>
-                        </div>
-                        <div class="text4">
-                            <h3>9am to 4:30pm</h3>
-                            <h3>Closed</h3>
-                            <h3>Closed</h3>
-                        </div>
-                    </div>
-                    <h2>Contact: 111 111 111</h2>
-                </div>
-            </div>
+            <p>(0)</p>
+            <p>Write a review</p>
+          </h3>
+          <h4>62.45$</h4>
+          <h5><a>Sign in</a> or <a>Sign up</a> to link your card</h5>
+          <div class="input-box">
+            <input type="checkbox" id="agree" />
+            <label for="agree">One time buy</label>
+          </div>
+          <div class="input-box">
+            <input type="checkbox" id="agree" />
+            <label for="agree">AutoDelivery</label>
+          </div>
+          <div class="button">
+            <button>Add to cart</button>
+          </div>
+          <div class="line">
+            <div class="horizontal-line"></div>
+          </div>
+          <div class="options">
+            <h6>Delivery Options</h6>
+            <p>Fastest Delivery</p>
+            <p id="2p">
+              Order within 6hrs 49mins for delivery <br />
+              by 9pm tonight or FREE delivery when you spend over $80
+            </p>
+          </div>
         </div>
-    </footer>
-</body>
+      </div>
+
+      <div class="text1">
+        <h1>Product Overview</h1>
+      </div>
+      <div class="line2">
+        <div class="horizontal-line2"></div>
+      </div>
+
+      <div class="overview">
+        <p>
+          The Mocha Collagen Coffee by Beforeyouspeak Coffee is an all-in-one
+          coffee elixir enriched with marine collagen, silica, camu camu,
+          proline and biotin. <br />
+          A caffeine kick, bursting with decadent chocolate, that can be served
+          as hot coffee or iced coffee. Key benefits: <br />
+          <br />
+          Premium Arabica coffee <br />
+          Marine collagen <br />
+          Vitamin C <br />
+          Dairy and gluten-free <br />
+          No added sugar <br />
+          <br />
+          Collagen Coffee. No, for real, it exists! Beforeyouspeak understands
+          the importance of taking care of your hair, skin & nails. The Original
+          Collagen Blend is <br />
+          carefully formulated to help you look and feel your best, so you can
+          perform at your best.
+          <br />
+          Jaryd and Ash, the Australian makers of Beforeyouspeak Coffee, are on
+          a mission to help you get more out of each day. They create premium
+          instant <br />
+          coffee blends, the Beforeyouspeak Coffee Creamers, Beforeyouspeak
+          Adrenal Decaf Coffee, Beforeyouspeak Collagen Coffee and
+          Beforeyouspeak
+          <br />
+          Performance Coffee. All products are formulated to help support
+          health, well-being and performance, by infusing them with vitamins,
+          minerals and
+          <br />
+          superfoods.
+        </p>
+      </div>
+
+      <section class="products">
+        <button class="fstprod" onclick="window.open('product.html', '_blank')">
+          <img src="images/coffee1.avif" alt="1stproduct" />
+          <h1>Beforeyouspeak Performance Coffee The OG 30 x 4.5g</h1>
+          <p class="price1">$55.96</p>
+          <p class="sale1">sale 20%-off</p>
+          <div class="add-to-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add to cart</p>
+          </div>
+        </button>
+        <button class="fstprod" onclick="window.open('product.html', '_blank')">
+          <img src="images/coffee2.avif" alt="1stproduct" />
+          <h1>
+            Beforeyouspeak Coffee Unsweetened Performance Coffee 30 x 4.5g
+          </h1>
+          <p class="price1">$55.96</p>
+          <p class="sale1">sale 20%-off</p>
+          <div class="add-to-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add to cart</p>
+          </div>
+        </button>
+        <button class="fstprod" onclick="window.open('product.html', '_blank')">
+          <img src="images/coffee3.avif" alt="1stproduct" />
+          <h1>Beforeyouspeak Coffee Performance Coffee Assorted 30 x 4.5g</h1>
+          <p class="price1">$55.96</p>
+          <p class="sale1">sale 20%-off</p>
+          <div class="add-to-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add to cart</p>
+          </div>
+        </button>
+        <button class="fstprod" onclick="window.open('product.html', '_blank')">
+          <img src="images/coffee4.avif" alt="1stproduct" />
+          <h1>Beforeyouspeak Coffee Performance Coffee Caramel 30 x 4.5g</h1>
+          <p class="price1">$55.96</p>
+          <p class="sale1">sale 20%-off</p>
+          <div class="add-to-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add to cart</p>
+          </div>
+        </button>
+        <button class="fstprod" onclick="window.open('product.html', '_blank')">
+          <img src="images/coffee5.avif" alt="1stproduct" />
+          <h1>Beforeyouspeak Collagen Complex - Caramel 200g</h1>
+          <p class="price1">$55.96</p>
+          <p class="sale1">sale 20%-off</p>
+          <div class="add-to-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add to cart</p>
+          </div>
+        </button>
+      </section>
+
+      <footer>
+        <hr class="fthr" />
+        <div class="ftr">
+          <div class="top">
+            <div>
+              <img src="images/TBClogo2.png" alt="TBClogo" />
+              <p>Get social with us</p>
+              <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <p>Our partners</p>
+              <div class="partners1">
+                <img src="images/melroselogo.png" class="melroselogo" />
+                <img src="images/musashilogo.png" class="musashilogo" />
+              </div>
+            </div>
+            <div class="rightpart">
+              <div class="verticalline"></div>
+              <div>
+                <div class="rightpart1">
+                  <h1>Healthcare</h1>
+                </div>
+                <h2>Healthylife Pharmacy</h2>
+                <h2>
+                  Sole Proprietor: Warren Turner <br />
+                  B.Pharm M.P.S M.R.Pharm.S <br />
+                  ABN 40 330 425 745
+                </h2>
+                <h2>Pharmacist available</h2>
+                <div class="text3">
+                  <div class="text4">
+                    <h3>Monday to Friday</h3>
+                    <h3>Saturday</h3>
+                    <h3>Sunday</h3>
+                  </div>
+                  <div class="text4">
+                    <h3>9am to 4:30pm</h3>
+                    <h3>Closed</h3>
+                    <h3>Closed</h3>
+                  </div>
+                </div>
+                <h2>Contact: 111 111 111</h2>
+              </div>
+            </div>
+          </div>
+          <div class="centerpart">
+            <div class="centerpart1">
+              <h5>Healthcare</h5>
+              <h6>About us</h6>
+              <h6>Advisory Board</h6>
+              <h6>Living Healthy Report 2024</h6>
+              <h6>Food Tracker</h6>
+              <h6>Catalogue</h6>
+              <h6>Everyday Rewards</h6>
+              <h6>AutoDelivery</h6>
+              <h6>Telehealth</h6>
+            </div>
+
+            <div class="centerpart1">
+              <h5>Customer Care</h5>
+              <h6>Contact us</h6>
+              <h6>Track order</h6>
+              <h6>Help Centre</h6>
+              <h6>Shipping & returns</h6>
+              <h6>Commercial/B2B</h6>
+              <h6>Terms & Conditions</h6>
+              <h6>Promotional T&Cs</h6>
+              <h6>AutoDelivery T&Cs</h6>
+              <h6>Product recalls</h6>
+              <h6>Product commitment</h6>
+              <h6>Pharmacy delivery</h6>
+            </div>
+
+            <div class="centerpart1">
+              <h5>Important Information</h5>
+              <h6>Collection notice</h6>
+              <h6>Woolworths Group Cookies Statement</h6>
+              <h6>Woolworths Group Privacy Centre</h6>
+              <h6>Woolworths Group Privacy Policy</h6>
+              <h6>Healthylife Pharmacy Privacy Policy</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
