@@ -157,6 +157,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: row;
+  flex-wrap: wrap;
   margin-top: 30px;
 
   .innerbox1,
