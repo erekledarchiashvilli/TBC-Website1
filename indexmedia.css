@@ -1,0 +1,207 @@
+/* General Reset for Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .logo a {
+      margin-left: 0;
+      font-size: 30px;
+    }
+  
+    .navigation {
+      margin-left: 0;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navigation ul {
+      gap: 30px;
+    }
+  
+    .search1 {
+      left: 0;
+      width: 80%;
+    }
+  
+    .search i {
+      left: 90%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .navigation ul {
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .products {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .fstprod {
+      width: 200px;
+    }
+  
+    .categories,
+    .brands {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .categorie-box img,
+    .brand-box img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .stuff {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      gap: 15px;
+    }
+  
+    .stuff-box,
+    .stuff-box2 {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navigation ul {
+      gap: 20px;
+    }
+  
+    .navigation a {
+      font-size: 14px;
+    }
+  
+    .search1 {
+      width: 90%;
+      font-size: 12px;
+    }
+  
+    .search i {
+      left: 95%;
+    }
+  
+    .pf,
+    .cart {
+      width: 60px;
+      height: 35px;
+    }
+  
+    .products {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .fstprod {
+      width: 90%;
+      height: auto;
+    }
+  
+    footer {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    footer .ftr {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    footer .partners1 {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo a {
+      font-size: 25px;
+      margin: 0;
+    }
+  
+    .navigation ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navigation a {
+      font-size: 12px;
+    }
+  
+    .search1 {
+      width: 100%;
+      font-size: 12px;
+    }
+  
+    .pf,
+    .cart {
+      width: 50px;
+      height: 30px;
+    }
+  
+    .categories,
+    .brands,
+    .stuff {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .categorie-box img,
+    .brand-box img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer .socials {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .logo a {
+      font-size: 20px;
+    }
+  
+    .navigation a {
+      font-size: 10px;
+    }
+  
+    .search1 {
+      font-size: 10px;
+    }
+  
+    .pf,
+    .cart {
+      width: 40px;
+      height: 25px;
+    }
+  
+    footer p {
+      font-size: 10px;
+    }
+  }
+  

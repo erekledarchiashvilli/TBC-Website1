@@ -1,0 +1,354 @@
+/*# sourceMappingURL=delivery.css.map */
+$primary-color: rgb(58, 0, 0);
+$secondary-color: rgb(80, 34, 34);
+$highlight-color: rgb(71, 0, 0);
+$neutral-color: #ccc;
+$background-color: rgb(15, 15, 15);
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+  
+.head {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    background-color: #3a0000;
+    width: 100%;
+    height: 120px;
+    gap: 70px;
+
+    .logo a {
+        text-decoration: none;
+        color: #3a0000;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+    }
+
+
+    .pages {
+        margin-left: 20px;
+        width: 590px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pages a {
+        color: #ccc;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+    }
+
+    .search {
+        width: 320px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search input{
+        width: 100%;
+        height: 20%;
+        border-radius: 10px;
+        border: transparent;
+        padding: 10px;
+    }
+
+    .pf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 44px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 18px;
+        border-color: $highlight-color;
+        background-color: transparent;
+        position: relative;
+        right: 20px;
+        color: $neutral-color;
+
+    }
+    .icon {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        border-radius: 30%;
+        padding: 8px;
+        transition: background-color 0.8s ease;
+        color: $neutral-color;
+    }
+    
+    .icon i {
+        font-size: 15px;
+    }
+    
+    .icon:hover {
+        background-color: $highlight-color;
+    }
+    
+    .cart {
+        color: $neutral-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 44px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 18px;
+        border-color: $highlight-color;
+        background-color: transparent;
+        position: relative;
+        right: 80px;
+        gap: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .cart p {
+        padding-top: 2px;
+        font-size: 16px;
+        color: $neutral-color;
+    }
+    
+    .cart:hover {
+        background-color: rgb(68, 0, 0);
+    }
+}
+  
+
+  
+.text1 {
+    h1 {
+      margin-top: 50px;
+      margin-left: 220px;
+      font-size: 40px;
+      font-weight: bolder;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    p {
+      color: rgb(29, 29, 29);
+      margin-left: 220px;
+      margin-top: 30px;
+      margin-bottom: 100px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+    }
+}
+  
+.text {
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+  
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  
+    .input-group {
+      width: 100%;
+      max-width: 900px;
+    }
+  
+    .input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-top: 8px;
+  
+      &:focus {
+        border-color: #470000;
+        outline: none;
+      }
+    }
+}
+  
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .checkbuttn {
+      width: 200px;
+      height: 70px;
+      border: #470000 solid 1px;
+      border-radius: 90px;
+      background-color: #470000;
+      margin-bottom: 100px;
+      transition: all 0.3s ease;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #580000;
+        color: white;
+        border-color: #580000;
+        cursor: pointer;
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      }
+    }
+}
+  
+.fthr {
+    width: 100%;
+  }
+  
+  footer {
+    display: flex;
+    width: 99.9%;
+    height: 500px;
+    background-color: transparent;
+  
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 30px;
+    }
+  
+    p {
+      margin-left: 30px;
+      font-size: 13px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+    .socials {
+      display: flex;
+      justify-content: space-between;
+      width: 170px;
+      margin-left: 27px;
+  
+      i {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        padding: 5px;
+        font-size: 19px;
+        border: solid rgb(39, 39, 39) 1px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    }
+  
+    .partners1 {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+  
+    .melroselogo {
+      width: 110px;
+      height: auto;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+  
+    .musashilogo {
+      width: 90px;
+      height: auto;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+  
+    .ftr {
+      display: flex;
+      justify-content: left;
+      align-items: row;
+      gap: 160px;
+    }
+  
+    .centerpart {
+      display: flex;
+      align-items: row;
+      gap: 30px;
+    }
+  
+    .centerpart1 {
+      width: 200px;
+  
+      h5 {
+        margin-top: 60px;
+        margin-bottom: 25px;
+        font-size: 14px;
+        font: bold;
+        font-family: 'Montserrat', sans-serif;
+        color: #9b9b9b;
+      }
+  
+      h6 {
+        font-size: 13px;
+        margin-bottom: 14px;
+        font: bold;
+        font-family: 'Montserrat', sans-serif;
+        color: #9b9b9b;
+        cursor: pointer;
+      }
+    }
+  
+    .rightpart {
+      display: flex;
+      align-items: row;
+    }
+  
+    .rightpart1 h1 {
+      margin-top: 10px;
+      font-size: 40px;
+      font-weight: bolder;
+      font-family: 'Montserrat', sans-serif;
+      color: #ff0000 !important;
+      cursor: pointer;
+    }
+  
+    .rightpart h2 {
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+    }
+  
+    .text3 {
+      display: flex;
+      align-items: row;
+      gap: 8px;
+      cursor: pointer;
+    }
+  
+    .text4 {
+      margin-top: 20px;
+      cursor: pointer;
+  
+      h3 {
+        margin-top: 3px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+      }
+    }
+  
+    .verticalline {
+      width: 1px;
+      background-color: grey;
+      height: 100%;
+      margin-right: 30px;
+      cursor: pointer;
+    }
+}
+  
